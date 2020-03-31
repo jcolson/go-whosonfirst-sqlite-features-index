@@ -2,6 +2,10 @@ module github.com/whosonfirst/go-whosonfirst-sqlite-features-index
 
 go 1.12
 
+replace github.com/whosonfirst/go-reader => github.com/whosonfirst/go-reader v0.1.1
+
+replace github.com/whosonfirst/go-whosonfirst-crawl => github.com/whosonfirst/go-whosonfirst-crawl v0.2.0
+
 require (
 	github.com/tidwall/gjson v1.6.0
 	github.com/whosonfirst/go-reader v0.1.1
